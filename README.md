@@ -19,12 +19,25 @@ Would be really handy to be able to hit shift+enter to run a section of code
 
 Silly mistakes:
 Was trying to change into pands_weekly_tasks_directory but this error message kept coming up:
-.\pands-weekly-tasks\ : The term '.\pands-weekly-tasks\' is not recognized as the name of a cmdlet, function, script file, or 
-operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
-At line:1 char:1
 + .\pands-weekly-tasks\
 + ~~~~~~~~~~~~~~~~~~~~~
     + CategoryInfo          : ObjectNotFound: (.\pands-weekly-tasks\:String) [], CommandNotFoundException
     + FullyQualifiedErrorId : CommandNotFoundException
 
-Realised I wasn't typing cd before to change into that directory!
+Realised I wasn't typing cd before to change into that directory! Took me like ten minutes to figure this out lol!
+
+
+Week 4:
+
+Links that helped this week:
+https://www.geeksforgeeks.org/what-is-a-modulo-operator-in-python/
+https://www.w3schools.com/python/python_while_loops.asp
+https://realpython.com/python-while-loop/
+
+Silly Mistakes:
+
+Could not figure out why my code was throwing up an error. I was usign the exact code that was in the labs and still getting error but then realised that I had started a line of code but not finished it way down the page. I hadn't even noticed that I hadn't deleted it. But the program wouldn't run becasue of that half line of code. I only realised it was there when I looked at the line nubmer in the error code - didn't realise that the error code gives you the line where the error is. very useful! - and I deleted the code fragment and the program worked.
+
+Forgot to change string to int on first line - input automatically inputs as string
+
+
