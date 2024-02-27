@@ -1,4 +1,26 @@
 # pands-weekly-tasks
+WEEK 5:
+
+Links that helped this week:
+https://stackoverflow.com/questions/32032504/python-time-greeting-program
+https://www.w3schools.com/python/python_datetime.asp
+
+
+
+
+Week 4:
+
+Links that helped this week:
+https://www.geeksforgeeks.org/what-is-a-modulo-operator-in-python/
+https://www.w3schools.com/python/python_while_loops.asp
+https://realpython.com/python-while-loop/
+
+Silly Mistakes:
+
+Could not figure out why my code was throwing up an error. I was usign the exact code that was in the labs and still getting error but then realised that I had started a line of code but not finished it way down the page. I hadn't even noticed that I hadn't deleted it. But the program wouldn't run becasue of that half line of code. I only realised it was there when I looked at the line nubmer in the error code - didn't realise that the error code gives you the line where the error is. very useful! - and I deleted the code fragment and the program worked.
+
+Forgot to change string to int on first line - input automatically inputs as string
+
 
 WEEK 3:
 
@@ -25,19 +47,4 @@ Was trying to change into pands_weekly_tasks_directory but this error message ke
     + FullyQualifiedErrorId : CommandNotFoundException
 
 Realised I wasn't typing cd before to change into that directory! Took me like ten minutes to figure this out lol!
-
-
-Week 4:
-
-Links that helped this week:
-https://www.geeksforgeeks.org/what-is-a-modulo-operator-in-python/
-https://www.w3schools.com/python/python_while_loops.asp
-https://realpython.com/python-while-loop/
-
-Silly Mistakes:
-
-Could not figure out why my code was throwing up an error. I was usign the exact code that was in the labs and still getting error but then realised that I had started a line of code but not finished it way down the page. I hadn't even noticed that I hadn't deleted it. But the program wouldn't run becasue of that half line of code. I only realised it was there when I looked at the line nubmer in the error code - didn't realise that the error code gives you the line where the error is. very useful! - and I deleted the code fragment and the program worked.
-
-Forgot to change string to int on first line - input automatically inputs as string
-
 
