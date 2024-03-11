@@ -4,6 +4,7 @@ WEEK 5:
 Links that helped this week:
 https://stackoverflow.com/questions/32032504/python-time-greeting-program
 https://www.w3schools.com/python/python_datetime.asp
+https://docs.python.org/3/library/datetime.html
 
 
 
