@@ -1,4 +1,22 @@
 # pands-weekly-tasks
+
+WEEK 6:
+
+Links that helped this week:
+https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository
+https://en.wikipedia.org/wiki/Newton%27s_method
+https://www.geeksforgeeks.org/random-numbers-in-python/
+https://www.geeksforgeeks.org/python-randint-function/
+https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+https://www.w3schools.com/python/ref_func_abs.asp
+https://www.w3schools.com/python/ref_random_uniform.asp
+
+Other issues:
+Creted a git repository for my pands project but didn't configure the gitignore for python so decided to delete
+and start again. Took a bit of figuring out out how to delete. They hide the delete button well away in the danger zone!
+
+Very annoying the way that the suggestion pops up on vcocde. It gets in the way. Want to figure out how to turn this off.
 WEEK 5:
 
 Links that helped this week:
@@ -16,7 +34,7 @@ https://www.geeksforgeeks.org/what-is-a-modulo-operator-in-python/
 https://www.w3schools.com/python/python_while_loops.asp
 https://realpython.com/python-while-loop/
 
-Silly Mistakes:
+Other issues:
 
 Could not figure out why my code was throwing up an error. I was usign the exact code that was in the labs and still getting error but then realised that I had started a line of code but not finished it way down the page. I hadn't even noticed that I hadn't deleted it. But the program wouldn't run becasue of that half line of code. I only realised it was there when I looked at the line nubmer in the error code - didn't realise that the error code gives you the line where the error is. very useful! - and I deleted the code fragment and the program worked.
 
@@ -32,7 +50,7 @@ https://stackoverflow.com/questions/59434361/how-to-run-a-few-selected-lines-of-
 https://stackoverflow.com/questions/38952053/how-can-i-run-text-selected-in-the-active-editor-in-vs-codes-integrated-terminal
 https://www.freecodecamp.org/news/python-string-replace-how-to-replace-a-character-in-a-string/
 
-Things still to figure out:
+Other issues:
 
 How to replace a character in a string.
 
