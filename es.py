@@ -2,8 +2,6 @@
 # A program that reads in a txt file and counts the number of e's in it.
 # Author: Marcella Morgan
 
-filename = "mobydick.txt"
-
 import argparse
 
 parser = argparse.ArgumentParser()
