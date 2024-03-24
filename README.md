@@ -1,5 +1,14 @@
 # pands-weekly-tasks
 
+WEEK 7:
+Links that helped this week:
+https://stackoverflow.com/questions/18647707/count-letters-in-a-text-file
+https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
+https://www.pythonforbeginners.com/argparse/argparse-tutorial
+https://docs.python.org/3/library/argparse.html#core-functionality
+
+
+
 WEEK 6:
 
 Links that helped this week:
