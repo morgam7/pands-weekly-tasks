@@ -11,7 +11,7 @@ def squareroot(number, guessroot):
     approxroot = 0.5 * (guessroot + (number/guessroot))
 
     # Keep doing this until the difference between your successive answers are less than the tolerance limit.
-    if (guessroot - approxroot) < 0.000000000000001: #(this is the tolerance limit)
+    if (guessroot - approxroot) < 0.00000000000001: #(this is the tolerance limit)
         return approxroot
     else:
         return squareroot(number, approxroot) 

@@ -1,5 +1,16 @@
 # pands-weekly-tasks
 
+WEEK 8:
+Links that helped this week:
+https://www.geeksforgeeks.org/how-to-plot-a-normal-distribution-with-matplotlib-in-python/
+https://www.w3schools.com/python/numpy/numpy_random_normal.asp
+https://www.askpython.com/python/built-in-methods/cubing-numbers-python
+https://numpy.org/doc/stable/reference/generated/numpy.arange.html
+https://realpython.com/python-sort
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html
+
+
+
 WEEK 7:
 Links that helped this week:
 https://stackoverflow.com/questions/18647707/count-letters-in-a-text-file
@@ -26,6 +37,8 @@ Creted a git repository for my pands project but didn't configure the gitignore 
 and start again. Took a bit of figuring out out how to delete. They hide the delete button well away in the danger zone!
 
 Very annoying the way that the suggestion pops up on vcocde. It gets in the way. Want to figure out how to turn this off.
+
+
 WEEK 5:
 
 Links that helped this week:
