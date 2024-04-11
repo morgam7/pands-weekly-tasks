@@ -1,36 +1,42 @@
-# pands-weekly-tasks
+# Weekly Tasks Repository
 
-WEEK 8:
+## About This Repository
+
+This is the the repository containing all the weekly tasks for the Programming and Scripting module of the Higher Diploma in Science in Data Analytics given by ATU Galway-Mayo.
+
+
+
+## WEEK 8:
 Links that helped this week:
-https://www.geeksforgeeks.org/how-to-plot-a-normal-distribution-with-matplotlib-in-python/
-https://www.w3schools.com/python/numpy/numpy_random_normal.asp
-https://www.askpython.com/python/built-in-methods/cubing-numbers-python
-https://numpy.org/doc/stable/reference/generated/numpy.arange.html
-https://realpython.com/python-sort
-https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html
+https://www.geeksforgeeks.org/how-to-plot-a-normal-distribution-with-matplotlib-in-python \
+https://www.w3schools.com/python/numpy/numpy_random_normal.asp \
+https://www.askpython.com/python/built-in-methods/cubing-numbers-python \
+https://numpy.org/doc/stable/reference/generated/numpy.arange.html \
+https://realpython.com/python-sort \
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html \
 
 
 
-WEEK 7:
+## WEEK 7:
 Links that helped this week:
-https://stackoverflow.com/questions/18647707/count-letters-in-a-text-file
-https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
-https://www.pythonforbeginners.com/argparse/argparse-tutorial
-https://docs.python.org/3/library/argparse.html#core-functionality
+https://stackoverflow.com/questions/18647707/count-letters-in-a-text-file \
+https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python \
+https://www.pythonforbeginners.com/argparse/argparse-tutorial \
+https://docs.python.org/3/library/argparse.html#core-functionality \
 
 
 
-WEEK 6:
+## WEEK 6:
 
 Links that helped this week:
-https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
-https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository
-https://en.wikipedia.org/wiki/Newton%27s_method
-https://www.geeksforgeeks.org/random-numbers-in-python/
-https://www.geeksforgeeks.org/python-randint-function/
-https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
-https://www.w3schools.com/python/ref_func_abs.asp
-https://www.w3schools.com/python/ref_random_uniform.asp
+https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method \
+https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository \
+https://en.wikipedia.org/wiki/Newton%27s_method \
+https://www.geeksforgeeks.org/random-numbers-in-python \
+https://www.geeksforgeeks.org/python-randint-function \
+https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method \
+https://www.w3schools.com/python/ref_func_abs.asp \
+https://www.w3schools.com/python/ref_random_uniform.asp \
 
 Other issues:
 Creted a git repository for my pands project but didn't configure the gitignore for python so decided to delete
@@ -39,22 +45,22 @@ and start again. Took a bit of figuring out out how to delete. They hide the del
 Very annoying the way that the suggestion pops up on vcocde. It gets in the way. Want to figure out how to turn this off.
 
 
-WEEK 5:
+## WEEK 5:
 
 Links that helped this week:
-https://stackoverflow.com/questions/32032504/python-time-greeting-program
-https://www.w3schools.com/python/python_datetime.asp
-https://docs.python.org/3/library/datetime.html
+https://stackoverflow.com/questions/32032504/python-time-greeting-program \
+https://www.w3schools.com/python/python_datetime.asp \
+https://docs.python.org/3/library/datetime.html \
 
 
 
 
-Week 4:
+## Week 4:
 
 Links that helped this week:
-https://www.geeksforgeeks.org/what-is-a-modulo-operator-in-python/
-https://www.w3schools.com/python/python_while_loops.asp
-https://realpython.com/python-while-loop/
+https://www.geeksforgeeks.org/what-is-a-modulo-operator-in-python \
+https://www.w3schools.com/python/python_while_loops.asp \
+https://realpython.com/python-while-loop \
 
 Other issues:
 
@@ -63,14 +69,14 @@ Could not figure out why my code was throwing up an error. I was usign the exact
 Forgot to change string to int on first line - input automatically inputs as string
 
 
-WEEK 3:
+## WEEK 3:
 
 Links that helped this week:
-https://www.w3schools.com/python/python_strings_slicing.asp
-https://www.w3schools.com/python/python_strings.asp
-https://stackoverflow.com/questions/59434361/how-to-run-a-few-selected-lines-of-code-in-vscode
-https://stackoverflow.com/questions/38952053/how-can-i-run-text-selected-in-the-active-editor-in-vs-codes-integrated-terminal
-https://www.freecodecamp.org/news/python-string-replace-how-to-replace-a-character-in-a-string/
+https://www.w3schools.com/python/python_strings_slicing.asp \
+https://www.w3schools.com/python/python_strings.asp \
+https://stackoverflow.com/questions/59434361/how-to-run-a-few-selected-lines-of-code-in-vscode \
+https://stackoverflow.com/questions/38952053 how-can-i-run-text-selected-in-the-active-editor-in-vs-codes-integrated-terminal \
+https://www.freecodecamp.org/news/python-string-replace-how-to-replace-a-character-in-a-string \
 
 Other issues:
 
