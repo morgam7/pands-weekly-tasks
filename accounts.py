@@ -1,3 +1,4 @@
+
 # accounts.py
 # A program that inputs an account number and replaces all but the last 4 numbers with an X.
 # Author: Marcella Morgan
@@ -6,8 +7,7 @@
 accountno = (input("Please enter a 10 digit account number: "))
 
 # Seperating the last 4 digits using slice function and printing the first 6 numbers as X's.
-print ("XXXXXX" + (accountno[:-5:-1]))
-
+print ("XXXXXX" + (accountno[-4:]))
 
 
 
@@ -35,7 +35,7 @@ print ("XXXXXX" + accountno[-1:-5])
 # I need to use a different syntax:
 
 accountno = (input("Please enter an account number: "))
-print ("XXXXXX" + accountno[:-5:-1])
+print ("XXXXXX" + accountno[-4:])
 
 
 # Can I figure out how to have the right amount of Xs? The program would need to count every number up to the 4th to last

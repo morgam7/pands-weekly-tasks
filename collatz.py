@@ -1,3 +1,4 @@
+
 # collatz.py
 # A program that inputs any positive integer and outputs the successive value by taking the current value 
 # and, if it is even, dividing it by two, but if it is odd, multiplying it by three and adding one. 

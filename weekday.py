@@ -1,3 +1,4 @@
+
 # weekday.py
 # A program that tells you whether today is a weekday.
 # Author: Marcella Morgan
@@ -5,7 +6,7 @@
 import datetime
 x = datetime.datetime.now()
 day = (x.strftime("%A"))
-# This automatcially imports what day it is and allows me to choose a format 
+# This automatically imports what day it is and allows me to choose a format 
 # so the day is always imported as a full capitalised word.
 
 if day == "Saturday":

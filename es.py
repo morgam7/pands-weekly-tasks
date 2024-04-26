@@ -1,20 +1,27 @@
+
 # es.py
 # A program that reads in a txt file and counts the number of e's in it.
 # Author: Marcella Morgan
 
 import argparse
 
-parser = argparse.ArgumentParser()
-parser.add_argument('filename') 
-args = parser.parse_args()
+try: # This sets up the error message
+    parser = argparse.ArgumentParser()
+    parser.add_argument('filename') 
+    args = parser.parse_args()
 # This code adds an argument to the command line that looks for a filename that will be used later.
 
-with open(args.filename) as f:
-    text = f.read() # opening and reading the file that was inputted into the command line earlier
-    ans = text.count("e") # Using count function to count the number of es
-    print (ans)
+    with open(args.filename) as f:
+        text = f.read() # opening and reading the file that was inputted into the command line earlier
+        ans = text.count("e") # Using count function to count the number of es
+        print (ans)
 
 
+except FileNotFoundError: #This error message will be outputted if a file name that doesn't exist is entered.
+    print("File name not found. Please enter a file that exists.")
+except: #This is the error message that will be outputted if the user forgets to enter a filename on the command line.
+    print("Please enter the filename as an argument.")
+    # I could not get this to work properly.
 
 
 
@@ -117,6 +124,9 @@ with open(args.filename) as f:
 # It might be possible to write a program that downloads this and creates a file for it in the depository and then 
 # counts the es. In other words that it won't require having the txt file in the repository. 
 # I'll look into this again if i have time.
+
+
+
 
 '''
    
