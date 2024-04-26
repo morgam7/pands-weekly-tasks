@@ -13,9 +13,11 @@ else:
     print ("Yes, unfortunately today is a weekday.")
 
 
-# Working it out:
+
+
 
 '''
+# WORKING IT OUT:
 
 # So the two possible outputs are:
 

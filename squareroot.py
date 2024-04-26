@@ -17,7 +17,6 @@ def squareroot(number, guessroot):
         return squareroot(number, approxroot) 
         # using the function with approxroot here to continue looping fucntion with successive answers.
 
-    
 # Now to input the arguments:
 
 number = float (input("Please enter a positive number: " )) # Must specify float as otherwise inputted as string
@@ -29,9 +28,14 @@ guessroot = random.uniform(1, number)
 ans = squareroot(number, guessroot)
 print (f"The square root of {number} is approx. {ans}.")
 
+
+
+
+
 '''
-# Working it out: (Very messy becasue I decided to try to write the code after just watching first lecture. Just to see
-# how far I could get.)
+# WORKING IT OUT: 
+
+# (Very messy becasue I decided to try to write the code after just watching first lecture. Just to see how far I could get.)
 
 # So first the easy bit: ask for the input number.
 

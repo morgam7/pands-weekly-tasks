@@ -12,14 +12,36 @@ We had to write a program that printed the words Hello World!
 
 We had to write a program that inputs and adds up two integers.
 
+The tricky part of this week's task was understanding the difference between strings, ints and floats and how they affect functions. The input function automatically inputs as a string. I needed to put 'int' before input to specify that it was an integer so that I could use the addition function to add up the amounts. I thought I needed to specify that that answer be returned as a float so that I could get a decimal, but it automatically does this. 
+
+However, when I went to print my answer with the text "The sum of these is $ " with '+ answer' I wasn't able to because the program "can only concatenate str (not "float") to str". So I had to use the format method. This also allowed me to specify that I wanted to return two decimal places so that for answers ending with a zero it kept the zero.
+
+Also, I had to use the dollar sign because I couldn't find the euro sign on my keyboard. New laptop!
+
+Links that helped this week:
+https://www.geeksforgeeks.org/python-data-types/ \
+https://www.w3schools.com/python/python_datatypes.asp \
+https://stackoverflow.com/questions/20449427/how-can-i-read-inputs-as-numbers \
+https://www.w3schools.com/python/ref_string_format.asp \
+https://stackoverflow.com/questions/15619096/add-zeros-to-a-float-after-the-decimal-point-in-python
+
 ## Week 3: accounts.py
 
 We had to write a program that inputs an account number and replaces all but the last 4 numbers with an X.
 
+So the solution involved returning a section of a string. I researched how to use the slice function on a string. Negative slicing can be used to slice a string from the end back. So this would work for an account number of any length. However, this did not work for me when I tried it. I found a great explanation [here](https://stackoverflow.com/questions/13672627/why-does-my-negative-slicing-in-python-not-work) for why and was able to correct my syntax.
+
+However, this would still print 6 X's before the last four digits of the account number no matter how many numbers preceded the last 4 numbers of the account number. I did some research on how to replace each digit before the last 4 with X but this involved some complicated concepts I don't understand yet. The replace() function might work here.
+
 Links that helped this week:
+
 https://www.w3schools.com/python/python_strings_slicing.asp \
 https://www.w3schools.com/python/python_strings.asp \
-https://www.freecodecamp.org/news/python-string-replace-how-to-replace-a-character-in-a-string 
+https://stackoverflow.com/questions/13672627/why-does-my-negative-slicing-in-python-not-work \
+https://www.freecodecamp.org/news/python-string-replace-how-to-replace-a-character-in-a-string \
+https://stackoverflow.com/questions/30141233/replacing-the-integers-in-a-string-with-xs-without-error-handling \
+https://www.askpython.com/python/string/python-replace-function \
+
 
 ## Week 4: collatz.py
 
@@ -27,6 +49,7 @@ We had to write a program that inputs any positive integer and outputs the succe
 and, if it is even, dividing it by two, but if it is odd, multiplying it by three and adding one. The program continues until the last value is one.
 
 Links that helped this week:
+
 https://www.geeksforgeeks.org/what-is-a-modulo-operator-in-python \
 https://www.w3schools.com/python/python_while_loops.asp \
 https://realpython.com/python-while-loop 
@@ -36,6 +59,7 @@ https://realpython.com/python-while-loop
 We had to write a program that tells you whether today is a weekday.
 
 Links that helped this week:
+
 https://stackoverflow.com/questions/32032504/python-time-greeting-program \
 https://www.w3schools.com/python/python_datetime.asp \
 https://docs.python.org/3/library/datetime.html 
@@ -45,6 +69,7 @@ https://docs.python.org/3/library/datetime.html
 We had to write a program that inputs a positive floating point number and finds the square root.
 
 Links that helped this week:
+
 https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method \
 https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository \
 https://en.wikipedia.org/wiki/Newton%27s_method \
@@ -59,6 +84,7 @@ https://www.w3schools.com/python/ref_random_uniform.asp
 We had to write a program that reads in a txt file and counts the number of e's in it.
 
 Links that helped this week:
+
 https://stackoverflow.com/questions/18647707/count-letters-in-a-text-file \
 https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python \
 https://www.pythonforbeginners.com/argparse/argparse-tutorial \
@@ -69,6 +95,7 @@ https://docs.python.org/3/library/argparse.html#core-functionality
 we had to write a program that displays (1) a histogram of a normal distribution of 1000 values with a mean of 5 and standard deviation of 2, and (2) a plot of the function h(x)=x3 in the range 0 to 10, on the one set of axes.
 
 Links that helped this week:
+
 https://www.geeksforgeeks.org/how-to-plot-a-normal-distribution-with-matplotlib-in-python \
 https://www.w3schools.com/python/numpy/numpy_random_normal.asp \
 https://www.askpython.com/python/built-in-methods/cubing-numbers-python \

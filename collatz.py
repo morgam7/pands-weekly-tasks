@@ -20,8 +20,8 @@ for value in numbers:
 
 
 
-
-# FIGURING IT OUT:
+'''
+# WORKING IT OUT:
 
 
 # So first I need to do 'if elif else' to deal with the different calculations for odd and even numbers.
@@ -103,7 +103,7 @@ for value in numbers:
 # print (value, end = " ")
 
 
-
+'''
 
 
 
