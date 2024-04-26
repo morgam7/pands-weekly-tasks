@@ -5,12 +5,13 @@
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('filename')
+parser.add_argument('filename') 
 args = parser.parse_args()
+# This code adds an argument to the command line that looks for a filename that will be used later.
 
 with open(args.filename) as f:
-    text = f.read()
-    ans = text.count("e") 
+    text = f.read() # opening and reading the file that was inputted into the command line earlier
+    ans = text.count("e") # Using count function to count the number of es
     print (ans)
 
 

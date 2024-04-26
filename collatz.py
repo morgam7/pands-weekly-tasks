@@ -5,16 +5,26 @@
 # Author: Marcella Morgan
 
 numbers = []
+# Creating a list
+
 number = int (input ("Please enter a positive integer: "))   
+# Inputting first number in the list. Need to specify that this input is an int.
+
+# Filling in the other numbers in the list:
 while number > 1:
-    numbers.append(number)
-    if (number % 2) == 0:
+    numbers.append(number) # Adding more numbers to the list
+    if (number % 2) == 0: # How you write an even number in code
         newnumber = int (number / 2)
-    else: 
+    else: # this is what to do to odd numbers:
         newnumber = int (number * 3 + 1)
-    number = newnumber
+    number = newnumber # closing the loop
+
+numbers.append(newnumber) 
+# adding this line so that the outputted line ends in 1 as per instructions. Otherwise 1 will not be added to the list 
+# as newnubmer will only be added if greater than one.
+
 for value in numbers:
- print (value, end = " ")
+ print (value, end = " ") # outputting values on the same line
 
 
 

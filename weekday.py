@@ -5,12 +5,16 @@
 import datetime
 x = datetime.datetime.now()
 day = (x.strftime("%A"))
+# This automatcially imports what day it is and allows me to choose a format 
+# so the day is always imported as a full capitalised word.
+
 if day == "Saturday":
     print ("It is the weekend, yay!.")
 elif day == "Sunday":
     print ("It is the weekend, yay!")
 else:
     print ("Yes, unfortunately today is a weekday.")
+# Using if, elif, else here becasue if the day isn't a Saturday or a Sunday it is a weekday, unfortunately.
 
 
 

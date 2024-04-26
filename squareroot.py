@@ -26,7 +26,8 @@ number = float (input("Please enter a positive number: " )) # Must specify float
 import random
 guessroot = random.uniform(1, number)
 ans = squareroot(number, guessroot)
-print (f"The square root of {number} is approx. {ans}.")
+print ("The squareroot of", format(number), "is approx.", format(ans,'.2f'))
+# Using format function to round to two decimal places
 
 
 

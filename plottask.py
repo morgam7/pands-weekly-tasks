@@ -23,7 +23,7 @@ plt.plot(xpoints, ypoints, color='r', label="xpoints cubed") # need to put in la
 plt.hist(x, label="normal distribution of 1000 values")
 
 
-# Making the plot pretty by adding code from andrew's lab tutorial:
+# Making the plot pretty by adding code from Andrew's lab tutorial:
 plt.title("Plot task")
 plt.xlabel("x values")
 plt.ylabel("y values")
@@ -60,7 +60,7 @@ np.random.seed(1)
 x = random.normal(loc=5, scale=2, size=(1000))
 
 print(x)
-'''
+
 # Okay so that seem to be working. I'm getting an array of 1000 random numbers anyway. So I will need to do a 
 # histogram with these x values.
 
@@ -72,7 +72,7 @@ print(x)
 
 # Forgot how to cube. This tutorial useful:https://www.askpython.com/python/built-in-methods/cubing-numbers-python
 # So ** followed by numbers of times you want to multply get any to the power of.
-'''
+
 
 np.random.seed(1)
 x = random.normal(loc=5, scale=2, size=(1000))
@@ -80,7 +80,7 @@ y = x**3
 print(x)
 print (y)
 
-'''
+
 
 
 
@@ -89,7 +89,6 @@ print (y)
 
 #First we'll plot the numbers cubed. Going to use this code I copied from labs:
 
-'''
 xpoints = np.array(range(1,101))
 ypoints = xpoints * xpoints #multiply each entry by itself
 plt.plot(xpoints, ypoints)
@@ -101,7 +100,7 @@ plt.show()
 
 plt.plot(x, y, color='r') # Adding code from Andrew's lab tutorial here to make the line red
 plt.show()
-'''
+
 
 
 
@@ -115,21 +114,21 @@ plt.show()
 # So how to do that?? Real pyton to the rescue https://realpython.com/python-sort/,
 # Need to use sorted function and it's defaul is ascending order
 
-'''
+
 np.random.seed(1)
 x = random.normal(loc=5, scale=2, size=(1000))
 sortedx = sorted(x)
 y = x**3 
 print(sortedx)
 print (y)
-'''
+
 
 # Okay so that is sorting the x axis in ascending order. But y values are still random but that won't matter. This should work.
 # But I've just noticed I'm getting negative vlaues. Not sure if this matters. It doesn't say on weekly task description that 
 # numbers need to be positive. But it does say that that the range of values of the y axis needs to be 0-10.
 # So when i'm genertatin the y vlaues I need to sepecify that i want only those values in that range.
 # Don't know if this will work but giving it a shot
-'''
+
 np.random.seed(1)
 x = random.normal(loc=5, scale=2, size=(1000))
 sortedx = sorted(x)
@@ -137,11 +136,11 @@ y = x**3(range(0,10))
 print(sortedx)
 print (y)
 
-'''
+
 
 # Nope that didn't work. Maybe I can do the range when I sort the x numbers
 
-'''
+
 np.random.seed(1)
 x = random.normal(loc=5, scale=2, size=(1000))
 sortedx = sorted(x)range(0,10)
@@ -168,18 +167,17 @@ y = [x**3 for x in range(0,10)]
 print(sortedx)
 print (y)
 
-'''
 
 # That kind of worked. So I'm getting closer but only have 10 values in y. So yeah that just made it retun 10 values. Not sure what I'm doing here.
 # Need to leave it. Will come back to it.
 # No wait now - what it's done is it has rturned the cube of all the 9 ints up to 10. So the range function must reutrn ints. Can I get it
 # to return floats?
-'''
+
 np.random.seed(1)
 x = random.normal(loc=5, scale=2, size=(1000))
 sortedx = sorted(x)
 y = x**3
-'''
+
 
 # nope doesn't work have to come back to it.
 
@@ -187,16 +185,16 @@ y = x**3
 # So i think I can specify the limits of the y axis. Btu I'll need to do this while writing the code for the plot. So 
 # going to do that:
 
-'''
+
 plt.plot(sorted(x), y, color='r') 
 plt.ylim((0, 10))
 plt.show()
-'''
+
 
 # Oh no disaster got a crazy graph that looked like blood dripping down the screen.
 # Going to get rid of the ylim to see what happens
 
-'''
+
 plt.plot(sorted(x), y, color='r') 
 plt.show()
 
@@ -284,4 +282,5 @@ plt.xlabel("x values")
 plt.ylabel("y values")
 plt.legend()
 plt.show()
+
 '''
